@@ -1,0 +1,98 @@
+body{
+  //background-color: red;
+  //background-image: url("img/checker.jpg");
+  background-image: url("../img/checker.jpeg");
+}
+
+nav{
+  background-color: rgba(255,255,255,.8);
+  margin-top: -2%;
+  margin-left: -1%;
+  margin-right: -1%;
+}
+
+nav:hover{
+	background-color: rgba(255,255,255,.9);
+}
+//nav bar
+.navigator{
+	/*text-align: center;*/
+    list-style-type: none;
+    padding: 0;
+    padding-top: 1%;
+		padding-bottom: 3%;
+    /* overflow: hidden; */
+
+}
+
+.nav a{
+	//display: block;
+	font-size: 115%;
+	text-decoration: none;
+	text-align: center;
+	padding: 16px;
+	color: black;
+	opacity: .7;
+}
+
+.nav a:hover{
+	cursor: pointer;
+	opacity: 1;
+}
+
+.nav{
+	float: left;
+  display: block;
+  //padding-right: 10%;
+  //padding-left: 100%;
+}
+
+header{
+  text-align: center;
+  margin-left: 33.33%;
+  margin-right: 33.33%;
+  background-color: white;
+  padding:3%;
+  //color: white;
+}
+
+.ingredients_list{
+  margin-top: 2%;
+}
+.ingredients{
+  background-color: white;
+  border-style: solid;
+  border-top: none;
+  grid-area: header;
+  //text-align: center;
+  list-style: none;
+  margin-top: 15%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+.ingredients_header{
+  padding-top: 2%;
+  grid-area: header;
+  text-align: center;
+  background-color: white;
+  border-style: solid;
+  border-bottom: none;
+  //margin-bottom: 10%;
+}
+
+.directions{
+  border-style: solid;
+  padding: 3%;
+  background-color: white;
+}
+// .directions_header{
+//   padding-bottom: 5%;
+//   text-align: center;
+//   background-color: white;
+//   border-style: solid;
+//   border-bottom: none;
+//   margin-left: 3%;
+//   margin-right: 3%;
+// //  margin-left: 3%;
+//   //margin-top: 3%;
+// }

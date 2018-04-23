@@ -1,0 +1,262 @@
+.icon-sprite, .icon-alien, .icon-anchor, .icon-balance, .icon-bed, .icon-chess, .icon-dolla, .icon-flake, .icon-handLizard, .icon-spaceShip, .icon-sun {
+  background-image: url('../img/icon-s67813ed1c3.png');
+  background-repeat: no-repeat;
+}
+
+.icon-alien {
+  background-position: -256px 0;
+}
+.icon-alien:hover, .icon-alien.alien-hover {
+  background-position: 0 0;
+}
+
+.icon-anchor {
+  background-position: -768px 0;
+}
+.icon-anchor:hover, .icon-anchor.anchor-hover {
+  background-position: -512px 0;
+}
+
+.icon-balance {
+  background-position: -1280px 0;
+}
+.icon-balance:hover, .icon-balance.balance-hover {
+  background-position: -1024px 0;
+}
+
+.icon-bed {
+  background-position: -1792px 0;
+}
+.icon-bed:hover, .icon-bed.bed-hover {
+  background-position: -1536px 0;
+}
+
+.icon-chess {
+  background-position: -2304px 0;
+}
+.icon-chess:hover, .icon-chess.chess-hover {
+  background-position: -2048px 0;
+}
+
+.icon-dolla {
+  background-position: -2816px 0;
+}
+.icon-dolla:hover, .icon-dolla.dolla-hover {
+  background-position: -2560px 0;
+}
+
+.icon-flake {
+  background-position: -3328px 0;
+}
+.icon-flake:hover, .icon-flake.flake-hover {
+  background-position: -3072px 0;
+}
+
+.icon-handLizard {
+  background-position: -3840px 0;
+}
+.icon-handLizard:hover, .icon-handLizard.handLizard-hover {
+  background-position: -3584px 0;
+}
+
+.icon-spaceShip {
+  background-position: -4352px 0;
+}
+.icon-spaceShip:hover, .icon-spaceShip.spaceShip-hover {
+  background-position: -4096px 0;
+}
+
+.icon-sun {
+  background-position: -4864px 0;
+}
+.icon-sun:hover, .icon-sun.sun-hover {
+  background-position: -4608px 0;
+}
+
+body {
+  background-color: #d8efe4;
+}
+
+.navigator {
+  /*text-align: center;*/
+  list-style-type: none;
+  margin-top: 0;
+  padding: 0;
+  padding-top: 1%;
+  padding-bottom: 5%;
+  /* overflow: hidden; */
+}
+
+li a {
+  font-size: 115%;
+  text-decoration: none;
+  text-align: center;
+  padding: 16px;
+  color: black;
+  opacity: .7;
+}
+
+li a:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+li {
+  float: left;
+  display: block;
+}
+
+header {
+  font-size: 150%;
+  font-family: 'Coiny', cursive;
+  text-align: center;
+  color: #17356d;
+}
+
+.myIcons {
+  /*text-align: center;*/
+  list-style-type: none;
+  margin-top: 0;
+  padding: 0;
+  padding-left: 20%;
+}
+
+.icon-animation1 {
+  margin-right: 15%;
+  width: 256px;
+  height: 256px;
+  background: url("../img/icon/alien.png");
+}
+
+.icon-animation1:hover {
+  margin-right: 15%;
+  width: 256px;
+  height: 256px;
+  background: url("../img/icon/alien-hover.png");
+}
+
+.icon-animation2 {
+  margin-right: 15%;
+  width: 256px;
+  height: 256px;
+  background: url("../img/icon/anchor.png");
+}
+
+.icon-animation2:hover {
+  margin-right: 15%;
+  width: 256px;
+  height: 256px;
+  background: url("../img/icon/anchor-hover.png");
+}
+
+.icon-animation3 {
+  margin-right: 15%;
+  width: 256px;
+  height: 256px;
+  background: url("../img/icon/balance.png");
+}
+
+.icon-animation3:hover {
+  margin-right: 15%;
+  width: 256px;
+  height: 256px;
+  background: url("../img/icon/balance-hover.png");
+}
+
+.icon-animation4 {
+  margin-right: 15%;
+  width: 256px;
+  height: 256px;
+  background: url("../img/icon/bed.png");
+}
+
+.icon-animation4:hover {
+  margin-right: 15%;
+  width: 256px;
+  height: 256px;
+  background: url("../img/icon/bed-hover.png");
+}
+
+.icon-animation5 {
+  margin-right: 15%;
+  width: 256px;
+  height: 256px;
+  background: url("../img/icon/chess.png");
+}
+
+.icon-animation5:hover {
+  margin-right: 15%;
+  width: 256px;
+  height: 256px;
+  background: url("../img/icon/chess-hover.png");
+}
+
+.icon-animation6 {
+  margin-right: 15%;
+  width: 256px;
+  height: 256px;
+  background: url("../img/icon/dolla.png");
+}
+
+.icon-animation6:hover {
+  margin-right: 15%;
+  width: 256px;
+  height: 256px;
+  background: url("../img/icon/dolla-hover.png");
+}
+
+.icon-animation7 {
+  margin-right: 15%;
+  width: 256px;
+  height: 256px;
+  background: url("../img/icon/flake.png");
+}
+
+.icon-animation7:hover {
+  margin-right: 15%;
+  width: 256px;
+  height: 256px;
+  background: url("../img/icon/flake-hover.png");
+}
+
+.icon-animation8 {
+  margin-right: 15%;
+  width: 256px;
+  height: 256px;
+  background: url("../img/icon/handLizard.png");
+}
+
+.icon-animation8:hover {
+  margin-right: 15%;
+  width: 256px;
+  height: 256px;
+  background: url("../img/icon/handLizard-hover.png");
+}
+
+.icon-animation9 {
+  margin-right: 15%;
+  width: 256px;
+  height: 256px;
+  background: url("../img/icon/spaceShip.png");
+}
+
+.icon-animation9:hover {
+  margin-right: 15%;
+  width: 256px;
+  height: 256px;
+  background: url("../img/icon/spaceShip-hover.png");
+}
+
+.icon-animation10 {
+  margin-right: 15%;
+  width: 256px;
+  height: 256px;
+  background: url("../img/icon/sun.png");
+}
+
+.icon-animation10:hover {
+  margin-right: 15%;
+  width: 256px;
+  height: 256px;
+  background: url("../img/icon/sun-hover.png");
+}

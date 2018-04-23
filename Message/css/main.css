@@ -1,0 +1,97 @@
+body {
+  background-image: url("../img/checker.jpeg");
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: -2%;
+  margin-left: -1%;
+  margin-right: -1%;
+}
+
+nav:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.navigator {
+  /*text-align: center;*/
+  list-style-type: none;
+  padding: 0;
+  padding-top: 1%;
+  padding-bottom: 3%;
+  /* overflow: hidden; */
+}
+
+.nav a {
+  font-size: 115%;
+  text-decoration: none;
+  text-align: center;
+  padding: 16px;
+  color: black;
+  opacity: .7;
+}
+
+.nav a:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.nav {
+  float: left;
+  display: block;
+}
+
+header {
+  text-align: center;
+  margin-left: 33.33%;
+  margin-right: 33.33%;
+  background-color: white;
+  padding: 3%;
+}
+
+.ingredients_list {
+  margin-top: 2%;
+}
+
+.ingredients {
+  background-color: white;
+  border-style: solid;
+  border-top: none;
+  grid-area: header;
+  list-style: none;
+  margin-top: 15%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
+.ingredients_header {
+  padding-top: 2%;
+  grid-area: header;
+  text-align: center;
+  background-color: white;
+  border-style: solid;
+  border-bottom: none;
+}
+
+.directions {
+  border-style: solid;
+  padding: 3%;
+  background-color: white;
+}
+
+.ingredients_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 1em 1em;
+  grid-template-areas: "blank header";
+}
+
+.directions {
+  margin-left: 3%;
+  margin-right: 3%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 5em 5em;
+}

@@ -1,0 +1,22 @@
+// //H1/H2
+.ingredients_list{
+  display: grid;
+  //grid-template-rows: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 1em 1em;
+
+  grid-template-areas:
+    "blank header"
+
+}
+
+//directions grid
+.directions{
+  margin-left: 3%;
+  margin-right: 3%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 5em 5em;
+}

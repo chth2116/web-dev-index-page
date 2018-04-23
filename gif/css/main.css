@@ -1,0 +1,105 @@
+.icon-sprite, .icon-1, .icon-2, .icon-3, .icon-4, .icon-5, .icon-6, .icon-7, .icon-8, .icon-9, .icon-stick10, .icon-stick11, .icon-stick12 {
+  background-image: url('../img/icon-s298a723454.png');
+  background-repeat: no-repeat;
+}
+
+.icon-1 {
+  background-position: 0 0;
+}
+
+.icon-2 {
+  background-position: -512px 0;
+}
+
+.icon-3 {
+  background-position: -1024px 0;
+}
+
+.icon-4 {
+  background-position: -1536px 0;
+}
+
+.icon-5 {
+  background-position: -2048px 0;
+}
+
+.icon-6 {
+  background-position: -2560px 0;
+}
+
+.icon-7 {
+  background-position: -3072px 0;
+}
+
+.icon-8 {
+  background-position: -3584px 0;
+}
+
+.icon-9 {
+  background-position: -4096px 0;
+}
+
+.icon-stick10 {
+  background-position: -4608px 0;
+}
+
+.icon-stick11 {
+  background-position: -5120px 0;
+}
+
+.icon-stick12 {
+  background-position: -5632px 0;
+}
+
+h1 {
+  margin-top: 1%;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  font-size: 400%;
+  font-weight: bold;
+}
+
+nav {
+  /*text-align: center;*/
+  list-style-type: none;
+  margin-top: 0;
+  padding: 0;
+  margin-left: -3%;
+  padding-top: .2%;
+  padding-bottom: 5%;
+  /* overflow: hidden; */
+}
+
+li a {
+  font-size: 115%;
+  text-decoration: none;
+  text-align: center;
+  padding: 16px;
+  color: black;
+  opacity: .7;
+}
+
+li a:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+li {
+  float: left;
+  display: block;
+}
+
+.icon-animation {
+  margin-top: 10%;
+  margin-left: 30%;
+  width: 512px;
+  height: 340px;
+  background: url("../img/icon-s298a723454.png") left center;
+  animation: play 2s steps(12) infinite;
+}
+
+@keyframes play {
+  100% {
+    background-position: -6144px;
+  }
+}

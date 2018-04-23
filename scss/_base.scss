@@ -1,0 +1,45 @@
+.container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-image: url("../img/home_image7.webp");
+    background-size: 100%;
+    padding-bottom: 40%;
+
+}
+
+.centered2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: rgba(255,255,255,.6);
+    color: black;
+    font-size: 150%;
+}
+
+.centered2 h3{
+  font-family: 'Bree Serif', serif;
+  font-size: 150%;
+  font-weight: 800;
+}
+
+.home_nav{
+  margin-top: 4%;
+  margin-bottom: 4%;
+  margin-left: 20%;
+  margin-right: 2%;
+
+}
+a{
+  font-size: 400%;
+  color: black;
+}
+
+a:hover{
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+  color: tomato;
+}
