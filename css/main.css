@@ -555,6 +555,7 @@ textarea {
 a {
   font-size: 400%;
   color: black;
+  text-align: center;
 }
 
 a:hover {
