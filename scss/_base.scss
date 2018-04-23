@@ -29,17 +29,22 @@
 .home_nav{
   margin-top: 4%;
   margin-bottom: 4%;
-  margin-left: 20%;
+  margin-left: 15%;
   margin-right: 2%;
 
 }
 a{
   font-size: 400%;
   color: black;
+  //text-align: center;
 }
 
 a:hover{
   transition: all 0.5s ease-out;
   cursor: pointer;
   color: tomato;
+}
+
+figcaption{
+  //text-align: center;
 }
